@@ -1,4 +1,4 @@
-import { EventBus } from '../src/index';
+import { EventBus } from '../dist/index';
 
 const eventBus = new EventBus();
 

@@ -1,4 +1,4 @@
-import { EventStore } from '../src/index';
+import { EventStore } from '../dist/index';
 
 const eventStore = new EventStore({
   state: {
