@@ -5,9 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "test-bus": "node ./test/event-bus-test.js",
-    "test-store": "node ./test/event-store-test.js"
+    "build": "tsc"
   },
   "author": "coderwhy",
   "license": "MIT",
