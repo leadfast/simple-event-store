@@ -1,21 +1,13 @@
 {
-  "name": "hy-event-store",
+  "name": "simple-event-store",
   "version": "1.3.1",
   "description": "An event-based global state management tool for vue, react, mini-program, ect.",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test-bus": "node ./Test/event-bus-test.js",
-    "test-store": "node ./Test/event-store-test.js"
+    "test-bus": "node ./test/event-bus-test.js",
+    "test-store": "node ./test/event-store-test.js"
   },
   "author": "coderwhy",
-  "license": "MIT",
-  "keywords": [
-    "state managment",
-    "mini-program",
-    "vue",
-    "react"
-  ],
-  "devDependencies": {
-    "axios": "^0.24.0"
-  }
+  "license": "MIT"
 }
